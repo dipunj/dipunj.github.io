@@ -1,1 +1,24 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: Dipunj Gupta
+email: dipunj.mnnit@gmail.com
+url: https://packetChor.github.io
+description: "Hello, Welcome to my Github page"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Dipunj Gupta
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/packetChor
+  - title: linkedin
+    url: https://linkedin.com/in/dipunj
+
+# Build settings
+markdown: kramdown
+permalink: pretty
