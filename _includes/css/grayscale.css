@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body {
     width: 100%;
     height: 100%;
@@ -134,7 +128,7 @@ a:focus {
 .intro {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100vh;
     padding: 100px 0;
     text-align: center;
     color: #fff;
@@ -255,7 +249,7 @@ a:focus {
 .repositories-section {
     width: 100%;
     padding: 50px 0;
-    margin-top: -10vw;
+    margin-top: -10vh;
     color: #fff;
     background: url(/img/repositories-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
@@ -267,11 +261,25 @@ a:focus {
 
 .blog-section {
     width: 100%;
-    margin-top: 8vw;
-    margin-bottom: 20vw;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
     padding: 50px 0;
     color: #fff;
     background: url(/img/blog-bg.jpg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact-section {
+    width: 100%;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    padding: 100px 0;
+    color: #fff;
+    background: url(/img/contact-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -287,11 +295,11 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 150px;
     }
 
     .repositories-section {
-        padding: 100px 0;
+        padding: 60px 0;
     }
 
     #map {
@@ -350,7 +358,7 @@ ul.banner-social-buttons li {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 5px 0;
 }
 
 footer p {
