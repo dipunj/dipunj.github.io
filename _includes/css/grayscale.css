@@ -261,11 +261,10 @@ a:focus {
 
 .blog-section {
     width: 100%;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    height: 100vh;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/blog-bg.jpg) no-repeat center center scroll;
+    background: no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -275,8 +274,7 @@ a:focus {
 
 .contact-section {
     width: 100%;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    height: 100vh;
     padding: 100px 0;
     color: #fff;
     background: url(/img/contact-bg.jpg) no-repeat center center scroll;
