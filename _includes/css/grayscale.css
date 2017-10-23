@@ -4,7 +4,6 @@ body {
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: {{ site.color.primary-dark }};
-    overflow-x : hidden !important;
 }
 
 html {
@@ -386,4 +385,5 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+    overflow-x : hidden !important;
 }
