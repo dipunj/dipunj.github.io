@@ -392,3 +392,7 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
     overflow-x: hidden !important;
 }
+
+::-webkit-scrollbar { 
+    display: none; 
+}
