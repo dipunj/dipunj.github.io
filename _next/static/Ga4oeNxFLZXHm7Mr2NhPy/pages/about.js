@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{QKkg:function(n,o,u){"use strict";u.r(o);o.default=function(){return"About"}},xXHS:function(n,o,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/about",function(){return u("QKkg")}])}},[["xXHS",0]]]);
