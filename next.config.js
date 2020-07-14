@@ -13,8 +13,5 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 });
 
 module.exports = withBundleAnalyzer({
-	// exportPathMap: () => ({
-	// 	'/': { page: '/' },
-	// }),
 	env: envConfig,
 });
