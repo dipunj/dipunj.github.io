@@ -13,6 +13,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 });
 
 module.exports = withBundleAnalyzer({
+	exportPathMap: () => ({
+		'/': { page: '/' },
+	}),
 	assetPrefix: !debug ? '/' : '',
 	env: envConfig,
 });

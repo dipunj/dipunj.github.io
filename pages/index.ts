@@ -1,3 +1,3 @@
-import index from '../components/home';
+import index from '../components/view/home';
 
 export default index;
